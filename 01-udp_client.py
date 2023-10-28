@@ -11,3 +11,5 @@ print(data.decode('utf-8')) # Esta linea imprime los datos recibidos del servido
 print(address.decode('utf-8')) # Esta linea intenta imprimir la direccion del servidor desde donde se recibieron los datos. Sin embargo, esta linea dara un error ya que 'address' es una tupla que contiene una cadena (direccion IP) y un entero (numero de puerto), y las tuplas no pueden ser decodificadas a una cadena.
 
 client.close() # Finalmente, esta linea cierra este codigo.
+
+# uso: python3 01-udp_client.py
