@@ -11,3 +11,5 @@ response = client.recv(4096) # Esta linea recibe la respuesta del servidor. El n
 print(response.decode('utf-8')) # Esta linea imprime la respuesta del servidor. Como los datos recibidos estan en formato binario, deben ser decodificados a una cadena utilizando 'utf-8'.
 
 client.close() # Finalmente, esta linea cierra la conexion al servidor.
+
+# uso: python3 00-tcp_client.py
