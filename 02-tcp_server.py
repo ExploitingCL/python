@@ -24,3 +24,5 @@ def handle_client(client_socket): # Esta es la funcion que maneja la comunicacio
 
 if __name__ == '__main__': # Esto asegura que la funcion principal se ejecute solo cuando este script se ejecute directamente (no cuando se importe como un modulo).
     main() # Crea un objeto de socket y lo vincula a una dirección IP y puerto específicos. Comienza a escuchar conexiones entrantes en esa dirección IP y puerto. Cuando se acepta una nueva conexión, imprime un mensaje y luego inicia un nuevo hilo para manejar la conexión del cliente. Por lo tanto, cuando llamas a main() al final de tu código, estás iniciando el servidor y permitiéndole aceptar y manejar conexiones entrantes.
+
+# uso: python3 02-tcp_server.py
